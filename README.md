@@ -1,6 +1,6 @@
-# github-user-react
+# web-application-react
 
-> Uma aplicação em React.js para buscar usuários no GitHub utilizando OAuth
+> Uma aplicação web React.js
 
 
 ## Build Setup
@@ -9,7 +9,7 @@
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# serve with hot reload at localhost:3000
 npm start
 
 # build for production with minification
