@@ -26,6 +26,12 @@
   to { transform: rotate(360deg); }
 }
 
+button{
+  border: none !important;
+  background: #fff;
+  size: 20px;
+}
+
 /*Contact*/
 .ipt{
   padding: 15px 15px !important;
@@ -37,4 +43,10 @@
   box-shadow: 0px 0px 15px #cdcdcd !important;
   display:inline-block !important;
   border: 1px solid #cdcdcd !important;
+}
+
+/*Navbar*/
+.nav{
+  background: #fff;
+  opacity: 0.9;
 }

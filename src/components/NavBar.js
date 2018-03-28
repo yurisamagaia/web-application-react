@@ -9,12 +9,13 @@ import {
   NavLink,
   Container
 } from 'reactstrap';
+import '../App.css';
 
 class NavBar extends Component {
   render() {
     return (
-      <Container>
-        <Navbar color="faded" light fixed expand="md">
+      <Navbar color="faded" light fixed="top" expand="md" className="nav">
+        <Container>
           <NavbarBrand href="/">LOGO</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse navbar>
@@ -36,8 +37,8 @@ class NavBar extends Component {
               </NavItem>
             </Nav>
           </Collapse>
-        </Navbar>
-      </Container>
+        </Container>
+      </Navbar>
     );
   }
 }
