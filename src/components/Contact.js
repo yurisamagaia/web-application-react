@@ -7,8 +7,11 @@ import Phone from 'react-icons/lib/fa/phone';
 class Contact extends Component {
   render() {
     return (
-      <Container className="mg-30">
+      <Container className="mg-container">
         <Row>
+          <Col xs="12">
+            <h2> Entre em Contato </h2>
+          </Col>
           <Col xs="6">
             <p><Envelope className="icons" /> contato@email.com</p>
             <p><Phone className="icons" /> (48) 3263 1234</p>
@@ -27,7 +30,7 @@ class Contact extends Component {
               <FormGroup>
                 <Input type="textarea" name="mensagem" id="mensagem" placeholder="Mensagem" className="ipt" />
               </FormGroup>
-              <Button type="submit" color="primary">Submit</Button>
+              <Button type="submit" color="primary">Enviar</Button>
             </Form>
           </Col>
         </Row>

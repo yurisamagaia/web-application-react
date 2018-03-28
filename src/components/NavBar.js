@@ -7,9 +7,11 @@ import {
   Nav,
   NavItem,
   NavLink,
-  Container
+  Container,
+  Button
 } from 'reactstrap';
 import '../App.css';
+import WhatsApp from 'react-icons/lib/fa/whatsapp';
 
 class NavBar extends Component {
   render() {
@@ -21,19 +23,22 @@ class NavBar extends Component {
           <Collapse navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="">Quem Somos</NavLink>
+                <NavLink href="#company">QUEM SOMOS</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="">Depoimentos</NavLink>
+                <NavLink href="">DEPOIMENTOS</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="">Serviços</NavLink>
+                <NavLink href="#services">SERVIÇOS</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="">Consulta de Entregas</NavLink>
+                <NavLink href="#consult">CONSULTAR ENTREGAS</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="">Contato</NavLink>
+                <NavLink href="#contact">CONTATO</NavLink>
+              </NavItem>
+              <NavItem>
+                <Button type="submit" color="success" className="btn-phone"><WhatsApp className="icon-whatsapp" /> (48) 9 9612 3456</Button>
               </NavItem>
             </Nav>
           </Collapse>

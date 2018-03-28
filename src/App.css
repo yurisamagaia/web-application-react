@@ -40,9 +40,28 @@ button{
   cursor: pointer;
 }
 
-.mg-30{
+.mg-container{
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
+}
+
+.space{
+  line-height: 40px;
+}
+
+.btn-phone{
+  font-size: 14px !important;
+  margin-top: 2px;
+}
+
+.icon-whatsapp{
+  font-size: 20px !important;
+}
+
+h2{
+  text-align: center;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
 }
 
 /*Contact*/
@@ -71,4 +90,26 @@ button{
 .nav{
   background: #fff;
   opacity: 0.9;
+  font-size: 14px !important;
+  border-bottom: 1px solid #eaeaea;
+}
+
+/*Parallax*/
+.parallax-text{
+  background: #fff;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0.8;
+  border-radius: 3px;
+}
+
+/*Footer*/
+.footer{
+  padding: 20px 0px;
+  text-align: center;
+  font-size: 14px;
+  border-top: 1px solid #eaeaea;
 }
