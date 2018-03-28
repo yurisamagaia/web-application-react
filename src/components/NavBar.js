@@ -21,19 +21,19 @@ class NavBar extends Component {
           <Collapse navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">Quem Somos</NavLink>
+                <NavLink href="">Quem Somos</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/">Depoimentos</NavLink>
+                <NavLink href="">Depoimentos</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/">Serviços</NavLink>
+                <NavLink href="">Serviços</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/">Consulta de Entregas</NavLink>
+                <NavLink href="">Consulta de Entregas</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/">Contato</NavLink>
+                <NavLink href="">Contato</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

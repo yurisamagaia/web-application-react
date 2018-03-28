@@ -1,4 +1,10 @@
+@fontface {
+  font-family: 'Roboto', sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=Roboto')
+}
+
 .App {
+  font-family: 'Roboto', sans-serif;
 }
 
 .App-logo {
@@ -30,12 +36,24 @@ button{
   border: none !important;
   background: #fff;
   size: 20px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.mg-30{
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 /*Contact*/
 .ipt{
   padding: 15px 15px !important;
   border-radius: 3px !important;
+  -webkit-box-shadow: 0px 0px 15px #eaeaea !important;
+  -moz-box-shadow: 0px 0px 15px #eaeaea !important;
+  box-shadow: 0px 0px 15px #eaeaea !important;
+  display:inline-block !important;
+  border: 1px solid #eaeaea !important;
 }
 .ipt:focus{
   -webkit-box-shadow: 0px 0px 15px #cdcdcd !important;
@@ -43,6 +61,10 @@ button{
   box-shadow: 0px 0px 15px #cdcdcd !important;
   display:inline-block !important;
   border: 1px solid #cdcdcd !important;
+}
+.icons{
+  font-size: 25px;
+  color: #333 !important;
 }
 
 /*Navbar*/

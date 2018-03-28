@@ -11,8 +11,8 @@ class Slider extends Component {
   render() {
     return (
       <Carousel
-        renderCenterLeftControls={({ previousSlide }) => ( <button onClick={previousSlide}><AngleLeft /></button> )}
-        renderCenterRightControls={({ nextSlide }) => ( <button onClick={nextSlide}><AngleRight /></button> )} >
+        renderCenterLeftControls={({ previousSlide }) => ( <button onClick={previousSlide}><AngleLeft className="icons" /></button> )}
+        renderCenterRightControls={({ nextSlide }) => ( <button onClick={nextSlide}><AngleRight className="icons" /></button> )} >
         <img src={img1} />
         <img src={img2} />
         <img src={img3} />
