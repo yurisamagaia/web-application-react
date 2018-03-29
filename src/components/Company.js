@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Form, FormGroup, Label, Input, Container, Row, Col } from 'reactstrap';
 import '../App.css';
+import Truck from '../img/truck.png';
 
 class Company extends Component {
   render() {
@@ -10,10 +11,10 @@ class Company extends Component {
           <Col xs="12">
             <h2> A Empresa </h2>
           </Col>
-          <Col xs="4">
-
+          <Col xs="6" className="text-center">
+            <img src={Truck} className="img-company" />
           </Col>
-          <Col xs="8" className="space">
+          <Col xs="6" className="space">
             Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI,
             quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum
             sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.
