@@ -1,10 +1,10 @@
 @fontface {
-  font-family: 'Roboto', sans-serif;
-  src: url('https://fonts.googleapis.com/css?family=Roboto')
+  font-family: 'PT Sans', sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=PT+Sans')
 }
 
 .App {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .App-logo {
@@ -53,15 +53,6 @@ button{
   text-align: center !important;
 }
 
-.btn-phone{
-  font-size: 14px !important;
-  margin-top: 2px;
-}
-
-.icon-whatsapp{
-  font-size: 20px !important;
-}
-
 h2{
   text-align: center;
   margin-top: 50px !important;
@@ -86,11 +77,12 @@ h2{
   border: 1px solid #cdcdcd !important;
 }
 .icons{
-  font-size: 25px;
+  font-size: 30px;
   color: #333 !important;
+  margin: 15px 30px 15px 0px;
 }
 .btn-send{
-  padding: 15px 15px !important;
+  padding: 10px 25px !important;
   border-radius: 3px !important;
   -webkit-box-shadow: 0px 0px 15px #007bff !important;
   -moz-box-shadow: 0px 0px 15px #007bff !important;
@@ -113,6 +105,13 @@ h2{
   font-size: 14px !important;
   border-bottom: 1px solid #eaeaea;
 }
+.btn-phone{
+  font-size: 14px !important;
+}
+
+.icon-phone{
+  font-size: 20px !important;
+}
 
 /*Company*/
 .img-company{
@@ -130,8 +129,14 @@ h2{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  opacity: 0.8;
+
   border-radius: 3px;
+  text-align: center;
+}
+.btn-consulta{
+  padding: 10px 25px !important;
+  border-radius: 3px !important;
+  margin-top: 15px;
 }
 
 /*Footer*/

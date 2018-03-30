@@ -5,13 +5,18 @@ import Envelope from 'react-icons/lib/fa/envelope';
 import Phone from 'react-icons/lib/fa/phone';
 import ImgParallax from '../img/parallax.png';
 import { Parallax, Background } from 'react-parallax';
+import MiniTruck from '../img/mini.png';
 
 class Consult extends Component {
   render() {
     return (
       <Parallax blur={2} bgImage={ImgParallax} strength={500}>
         <div style={{height: 500}}>
-          <div className="parallax-text">HTML inside the parallax</div>
+          <div className="parallax-text">
+            <h3>Faça a conulta de sua entrega agora</h3>
+            <img src={MiniTruck} />
+            <Button color="success" className="btn-consulta"> FAZER CONULTA</Button>
+          </div>
         </div>
       </Parallax>
     );

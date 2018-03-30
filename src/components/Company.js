@@ -9,7 +9,7 @@ class Company extends Component {
       <Container className="mg-container">
         <Row>
           <Col xs="12">
-            <h2> A Empresa </h2>
+            <h2> A EMPRESA </h2>
           </Col>
           <Col xs="6" className="text-center">
             <img src={Truck} className="img-company" />

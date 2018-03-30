@@ -11,14 +11,17 @@ import {
   Button
 } from 'reactstrap';
 import '../App.css';
-import WhatsApp from 'react-icons/lib/fa/whatsapp';
+import Phone from 'react-icons/lib/fa/phone';
+import Logo from '../img/logo.png';
 
 class NavBar extends Component {
   render() {
     return (
       <Navbar color="faded" light fixed="top" expand="md" className="nav">
         <Container>
-          <NavbarBrand href="/">LOGO</NavbarBrand>
+          <NavbarBrand href="/">
+            <img src={Logo} />
+          </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse navbar>
             <Nav className="ml-auto" navbar>
@@ -38,7 +41,7 @@ class NavBar extends Component {
                 <NavLink href="#contact">CONTATO</NavLink>
               </NavItem>
               <NavItem>
-                <Button type="submit" color="success" className="btn-phone"><WhatsApp className="icon-whatsapp" /> (48) 9 9612 3456</Button>
+                <Button type="submit" color="success" className="btn-phone"><Phone className="icon-phone" /> (48) 3263 2216</Button>
               </NavItem>
             </Nav>
           </Collapse>
