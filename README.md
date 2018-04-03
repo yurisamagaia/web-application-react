@@ -1,6 +1,6 @@
 # web-application-react
 
-> Uma aplicação web React.js
+> Uma aplicação web utilizando React.js e reactstrap
 
 
 ## Build Setup
