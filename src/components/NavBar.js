@@ -26,19 +26,19 @@ class NavBar extends Component {
           <Collapse navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="#company">QUEM SOMOS</NavLink>
+                <NavLink href="#company" className="menu-item">QUEM SOMOS</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="">DEPOIMENTOS</NavLink>
+                <NavLink href="" className="menu-item">DEPOIMENTOS</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#services">SERVIÇOS</NavLink>
+                <NavLink href="#services" className="menu-item">SERVIÇOS</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#consult">CONSULTAR ENTREGAS</NavLink>
+                <NavLink href="#consult" className="menu-item">CONSULTAR ENTREGAS</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#contact">CONTATO</NavLink>
+                <NavLink href="#contact" className="menu-item">CONTATO</NavLink>
               </NavItem>
               <NavItem>
                 <Button type="submit" color="success" className="btn-phone"><Phone className="icon-phone" /> (48) 3263 2216</Button>

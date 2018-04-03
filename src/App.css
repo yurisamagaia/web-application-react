@@ -108,9 +108,15 @@ h2{
 .btn-phone{
   font-size: 14px !important;
 }
-
 .icon-phone{
   font-size: 20px !important;
+}
+.menu-item{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.menu-item:hover{
+  text-decoration: underline;
 }
 
 /*Company*/
