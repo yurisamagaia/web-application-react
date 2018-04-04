@@ -112,11 +112,10 @@ h2{
   font-size: 20px !important;
 }
 .menu-item{
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-right: 20px;
 }
 .menu-item:hover{
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 
 /*Company*/
