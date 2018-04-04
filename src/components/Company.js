@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Button, Form, FormGroup, Label, Input, Container, Row, Col } from 'reactstrap';
 import '../App.css';
 import Truck from '../img/truck.png';
+import Envelope from 'react-icons/lib/fa/envelope';
 
 class Company extends Component {
   render() {

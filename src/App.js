@@ -5,6 +5,7 @@ import './App.css';
 import NavBar from './components/NavBar';
 import Slider from './components/Slider';
 import Company from './components/Company';
+import Choose from './components/Choose';
 import Consult from './components/Consult';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -20,6 +21,7 @@ class App extends Component {
         <ScrollableAnchor id={'company'}>
           <Company />
         </ScrollableAnchor>
+        <Choose />
         <ScrollableAnchor id={'consult'}>
           <Consult />
         </ScrollableAnchor>

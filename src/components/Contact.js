@@ -13,22 +13,20 @@ class Contact extends Component {
             <h2> ENTRE EM CONTATO / FAÇA UMA COTAÇÃO </h2>
           </Col>
           <Col xs="6">
-            <p>
-              <Envelope className="icons" />
-              <strong>NOSSAS LOCALIZAÇÕES</strong>
-              Localização Armazém Santa Catarina [Matriz]
-              Rua Curió Nº 320
-              Telefone: (48) 3263-2216
-              CEP: 88200-00 Centro
-              Tijucas – SC
-
-              Localização Armazém São Paulo [Filial]
-              Rua Capitão Militão Nº 160
-              Telefone: (48) 3263-2216
-              CEP: 03273-200 Vila Santa Clara
-              São Paulo – SP
-            </p>
+            <p><Envelope className="icons" /> contato@email.com</p>
             <p><Phone className="icons" /> (48) 3263 1234</p>
+
+            <p><strong>Localização Armazém Santa Catarina [Matriz]</strong></p>
+            <div>Rua Curió Nº 320</div>
+            <div>Telefone: (48) 3263-2216</div>
+            <div>CEP: 88200-00 Centro</div>
+            <div>Tijucas – SC</div>
+
+            <p><strong>Localização Armazém São Paulo [Filial]</strong></p>
+            <div>Rua Capitão Militão Nº 160</div>
+            <div>Telefone: (48) 3263-2216</div>
+            <div>CEP: 03273-200 Vila Santa Clara</div>
+            <div>São Paulo – SP</div>
           </Col>
           <Col xs="6">
             <p>Transporte Rodoviário Nacional e Transportes de Cargas Fechadas em abastecimento de fábricas, filiais e grandes redes. Nós iremos ajudar você a fazer a entrega de forma eficiente.</p>
