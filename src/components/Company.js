@@ -22,6 +22,9 @@ class Company extends Component {
             Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando
             passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
           </Col>
+          <Col md="12">
+            
+          </Col>
         </Row>
       </Container>
     );

@@ -6,6 +6,9 @@ import Thumbs from 'react-icons/lib/fa/thumbs-up';
 import Tree from 'react-icons/lib/fa/tree';
 import Star from 'react-icons/lib/fa/star';
 
+import CountUp from 'react-countup';
+import LazyLoad from 'react-lazy-load';
+
 class Company extends Component {
   render() {
     return (
@@ -40,6 +43,11 @@ class Company extends Component {
               <p><Star className="icon-choose" /></p>
               <div><strong> QUALIDADE </strong></div>
               <div>Trabalhamos sempre dentro dos parâmetros de qualidade total aos clientes, nossa torre de controle operacional mantém nossos clientes informado a todo tempo via Follow-up online</div>
+            </Col>
+            <Col md="3" className="text-center">
+              <LazyLoad>
+                <CountUp start={0} end={123452} />
+              </LazyLoad>
             </Col>
           </Row>
         </Container>

@@ -5,6 +5,7 @@ import './App.css';
 import NavBar from './components/NavBar';
 import Slider from './components/Slider';
 import Company from './components/Company';
+import Comments from './components/Comments';
 import Choose from './components/Choose';
 import Consult from './components/Consult';
 import Contact from './components/Contact';
@@ -20,6 +21,9 @@ class App extends Component {
         <Slider />
         <ScrollableAnchor id={'company'}>
           <Company />
+        </ScrollableAnchor>
+        <ScrollableAnchor id={'comments'}>
+          <Comments />
         </ScrollableAnchor>
         <Choose />
         <ScrollableAnchor id={'consult'}>

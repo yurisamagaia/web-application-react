@@ -33,11 +33,7 @@
 }
 
 button{
-  border: none !important;
-  background: #fff;
-  size: 20px;
-  opacity: 0.8;
-  cursor: pointer;
+
 }
 
 .mg-container{
@@ -62,6 +58,10 @@ h2{
   text-align: center;
   margin-top: 50px !important;
   margin-bottom: 50px !important;
+}
+
+.slide{
+  width: 100%;
 }
 
 /*Contact*/
@@ -117,11 +117,8 @@ h2{
   font-size: 20px !important;
 }
 .menu-item{
-<<<<<<< HEAD
   margin-right: 20px;
-=======
   margin-right: 10px;
->>>>>>> 7175adcb52724cfa238617b214a7d5d4ea25ce39
 }
 .menu-item:hover{
   text-decoration: underline !important;
@@ -145,6 +142,21 @@ h2{
   border: 1px solid #2196f3;
   border-radius: 50%;
   padding: 5px;
+}
+
+/*Comments*/
+.comment{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.slide-comments{
+  padding-bottom: 80px;
+}
+.img{
+  height: 100px;
+  display: inline !important;
+  margin-bottom: 20px;
+  border-radius: 10px;
 }
 
 /*Parallax*/
