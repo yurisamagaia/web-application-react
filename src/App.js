@@ -7,6 +7,8 @@ import Slider from './components/Slider';
 import Company from './components/Company';
 import Comments from './components/Comments';
 import Choose from './components/Choose';
+import Services from './components/Services';
+import Confidence from './components/Confidence';
 import Consult from './components/Consult';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -19,13 +21,17 @@ class App extends Component {
       <div className="App">
         <NavBar />
         <Slider />
+        <Choose />
         <ScrollableAnchor id={'company'}>
           <Company />
+        </ScrollableAnchor>
+        <ScrollableAnchor id={'services'}>
+          <Services />
         </ScrollableAnchor>
         <ScrollableAnchor id={'comments'}>
           <Comments />
         </ScrollableAnchor>
-        <Choose />
+        <Confidence />
         <ScrollableAnchor id={'consult'}>
           <Consult />
         </ScrollableAnchor>

@@ -13,7 +13,7 @@ class Consult extends Component {
       <Parallax blur={2} bgImage={ImgParallax} strength={500}>
         <div style={{height: 500}}>
           <div className="parallax-text">
-            <h3>Faça a conulta de sua entrega agora</h3>
+            <h3>Faça a consulta de sua entrega agora</h3>
             <img src={MiniTruck} />
             <Button color="success" className="btn-consulta"> FAZER CONULTA</Button>
           </div>
