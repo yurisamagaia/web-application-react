@@ -26,7 +26,7 @@ class Company extends Component {
           <Col md="3" className="text-center">
             <p><Lock className="icon-choose" /></p>
             <div><strong>SEGURANÇA</strong></div>
-            <div>Equipe altamente treinada, profissionais autorizados por todas as gerenciadoras de riscos, e equipamentos modernos, inspecionados regularmente</div>
+            <div>Equipe altamente treinada, profissionais autorizados por todas as gerenciadoras de riscos e equipamentos modernos, inspecionados regularmente</div>
           </Col>
           <Col md="3" className="text-center">
             <p><Thumbs className="icon-choose" /></p>
@@ -36,7 +36,7 @@ class Company extends Component {
           <Col md="3" className="text-center">
             <p><Tree className="icon-choose" /></p>
             <div><strong>MEIO AMBIENTE</strong></div>
-            <div>Nossa frota tem idade média de 5 anos, ou seja nossos veículos já vem com tecnologia instalada que faz com que os veículos poluam menos</div>
+            <div>Nossa frota tem idade média de 5 anos, ou seja nossos veículos já vem com tecnologia instalada para a baixa emissão de poluentes</div>
           </Col>
           <Col md="3" className="text-center">
             <p><Star className="icon-choose" /></p>

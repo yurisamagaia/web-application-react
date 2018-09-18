@@ -34,7 +34,7 @@ class Contact extends Component {
                     <Phone className="icon-contact" />
                   </Col>
                   <Col md="10">
-                    <h5><strong>What`s App</strong></h5>
+                    <h5><strong>WhatsApp</strong></h5>
                     +55 (48) 9 9672-2446
                   </Col>
                 </Row>

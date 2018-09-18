@@ -20,7 +20,7 @@ class NavBar extends Component {
       <Navbar color="faded" light fixed="top" expand="md" className="nav">
         <Container>
           <NavbarBrand href="/">
-            LOGO
+            <img src={Logo} className="" />
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse navbar>
@@ -29,7 +29,7 @@ class NavBar extends Component {
                 <NavLink href="#company" className="menu-item">QUEM SOMOS</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="" className="menu-item">DEPOIMENTOS</NavLink>
+                <NavLink href="#comments" className="menu-item">DEPOIMENTOS</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="#services" className="menu-item">SERVIÇOS</NavLink>

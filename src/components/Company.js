@@ -24,9 +24,9 @@ class Company extends Component {
               <img src={Truck} className="img-company" />
             </Col>
             <Col xs="6" className="space">
-              Em 1995 o Senhor Valdeci João Libardo no município de Tijucas SC deu inicio a Libardo Transportes, desde então a empresa foi crescendo e se desenvolvendo e ganhando mais apoio de profissionais e da família.
-              Hoje a Libardo Transportes é gerida pelo Senhor Valdeci e sua esposa Katia e com apoio de grandes profissionais que fazem parte desse time.
-              A visão empreendedora da empresa, a honestidade com os fornecedores, a motivação e valorização dos colaboradores e principalmente o cuidado com os nossos clientes fazem com que a Libardo Transportes hoje seja uma empresa de destaque em logística de transportes.
+              Em 1995 Valdeci João Libardo, no município de Tijucas - SC, deu inicio a Libardo Transportes, desde então a empresa foi crescendo e se desenvolvendo e ganhando mais apoio de profissionais e da família.
+              Hoje a Libardo Transportes é administrada por Valdeci, sua esposa Katia e com apoio de grandes profissionais que fazem parte desse time.
+              A visão empreendedora da empresa, a honestidade com os fornecedores, a motivação e valorização dos colaboradores e principalmente o cuidado com os clientes fazem com que a Libardo Transportes hoje seja uma empresa de destaque em logística de transportes.
             </Col>
             <Col md="12" className="text-center mg-top-50">
               <Row>
@@ -36,7 +36,7 @@ class Company extends Component {
                       <CountUp start={0} end={15} />
                     </LazyLoad>
                   </h3>
-                  <p>Frota</p>
+                  <p>Veículos na Frota</p>
                   <TruckIcon className="icon-company" />
                 </Col>
                 <Col md="3">

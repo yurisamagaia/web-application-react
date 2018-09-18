@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Carousel from 'nuka-carousel';
+//import Carousel from 'nuka-carousel';
 import '../App.css';
 import { Container, Row, Col } from 'reactstrap';
 import AngleLeft from 'react-icons/lib/fa/angle-left';
@@ -39,10 +39,12 @@ class Comments extends Component {
     var settings = {
       dots: true,
       infinite: true,
-      speed: 500,
+      speed: 1000,
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
+      fade: true,
+      pauseOnHover: true,
       nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />
     };
@@ -53,17 +55,18 @@ class Comments extends Component {
           <Slide {...settings}>
             <div className="comment">
               <img src={img1} className="img" />
-              <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI,
-              quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
-              <h7>Empresa tal</h7>
+              <p>Ótima empresa, presta um serviço diferenciado com preço justo, segurança, transparência e muita agilidade.
+              O seu Follow-Up é excelente, mantém o cliente sempre informado em tempo real, gerando mais confiança e tranquiidade,
+              tanto para o remetente quanto para o destinatário.</p>
+              <div>MARCOS REISNER</div>
+              <small>Gerente de Logística</small>
             </div>
             <div className="comment">
               <img src={img2} className="img" />
-              <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI,
-              quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.
-              Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI,
-              quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
-              <h7>Empresa tal 2</h7>
+              <p>A Libardo Transportes nos oferece um ótimo atendimento, sempre com agilidade e preço justo.
+              Temos uma parceria logística de longa data e estamos satisfeitos o serviço prestado.</p>
+              <div>JOSIVALDO DO NASCIMENTO</div>
+              <small>Coordenador de Logística</small>
             </div>
           </Slide>
         </Container>

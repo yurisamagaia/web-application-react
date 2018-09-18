@@ -204,8 +204,13 @@ h2{
 
 /*Footer*/
 .footer{
-  padding: 20px 0px;
   text-align: center;
-  font-size: 14px;
   border-top: 1px solid #eaeaea;
+}
+.logo-footer{
+  margin: 60px 0px;
+}
+.footer-copyright{
+  padding: 30px 0px;
+  background-color: #eaeaea;
 }
