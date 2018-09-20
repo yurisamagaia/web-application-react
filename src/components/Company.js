@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { Button, Form, FormGroup, Label, Input, Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 import '../App.css';
 import Truck from '../img/truck.png';
-import Envelope from 'react-icons/lib/fa/envelope';
 import TruckIcon from 'react-icons/lib/fa/truck';
 import Cube from 'react-icons/lib/fa/cube';
 import Child from 'react-icons/lib/fa/child';
@@ -20,10 +19,10 @@ class Company extends Component {
             <Col xs="12">
               <h2> A EMPRESA </h2>
             </Col>
-            <Col xs="6" className="text-center">
-              <img src={Truck} className="img-company" />
+            <Col md="6" xs="12" className="text-center">
+              <img src={Truck} className="img-company" alt="Empresa" />
             </Col>
-            <Col xs="6" className="space">
+            <Col md="6" xs="12" className="space">
               Em 1995 Valdeci João Libardo, no município de Tijucas - SC, deu inicio a Libardo Transportes, desde então a empresa foi crescendo e se desenvolvendo e ganhando mais apoio de profissionais e da família.
               Hoje a Libardo Transportes é administrada por Valdeci, sua esposa Katia e com apoio de grandes profissionais que fazem parte desse time.
               A visão empreendedora da empresa, a honestidade com os fornecedores, a motivação e valorização dos colaboradores e principalmente o cuidado com os clientes fazem com que a Libardo Transportes hoje seja uma empresa de destaque em logística de transportes.

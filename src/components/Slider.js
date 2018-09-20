@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
-import Carousel from 'nuka-carousel';
 import '../App.css';
 import img1 from '../img/img1.png';
 import img2 from '../img/img2.png';
 import img3 from '../img/img3.png';
-import AngleLeft from 'react-icons/lib/fa/angle-left';
-import AngleRight from 'react-icons/lib/fa/angle-right';
 
 import Slide from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -47,13 +44,13 @@ class Slider extends Component {
     return (
       <Slide {...settings}>
         <div>
-          <img src={img1} className="slide" />
+          <img src={img1} className="slide" alt="Slide1" />
         </div>
         <div>
-          <img src={img2} className="slide" />
+          <img src={img2} className="slide" alt="Slide2" />
         </div>
         <div>
-          <img src={img3} className="slide" />
+          <img src={img3} className="slide" alt="Slide3" />
         </div>
       </Slide>
     );

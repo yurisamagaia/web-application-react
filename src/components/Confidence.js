@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
-import { Button, Form, FormGroup, Label, Input, Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 import '../App.css';
 import Lock from 'react-icons/lib/fa/lock';
-import Thumbs from 'react-icons/lib/fa/thumbs-up';
 import Wrench from 'react-icons/lib/fa/wrench';
 import Chart from 'react-icons/lib/fa/line-chart';
 import Check from 'react-icons/lib/fa/check';
 import Certification from 'react-icons/lib/fa/bookmark-o';
-
-import CountUp from 'react-countup';
-import LazyLoad from 'react-lazy-load';
 
 class Confidence extends Component {
   render() {

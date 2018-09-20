@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import { Button, Form, FormGroup, Label, Input, Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 import '../App.css';
 import Lock from 'react-icons/lib/fa/lock';
 import Thumbs from 'react-icons/lib/fa/thumbs-up';
 import Tree from 'react-icons/lib/fa/tree';
 import Star from 'react-icons/lib/fa/star';
-
-import CountUp from 'react-countup';
-import LazyLoad from 'react-lazy-load';
 
 class Company extends Component {
   render() {

@@ -1,11 +1,43 @@
 import React, { Component } from 'react';
-import { Button, Form, FormGroup, Label, Input, Container, Row, Col } from 'reactstrap';
+import { Button, Form, FormGroup, Input, Container, Row, Col } from 'reactstrap';
 import '../App.css';
 import Envelope from 'react-icons/lib/fa/envelope';
 import Phone from 'react-icons/lib/fa/phone';
 import Local from 'react-icons/lib/fa/location-arrow';
+import axios from 'axios';
 
 class Contact extends Component {
+
+  constructor(props) {
+    super(props)
+    this.state = {
+      nome: '',
+      email: '',
+      telefone: '',
+      mensagem: ''
+    }
+  }
+
+  onChange = (event) => {
+    this.state[event.target.name] = event.target.value
+    this.setState(this.state)
+  }
+
+  handleClick = () => {
+    axios.post('http://admindesenv.alldoctors.com.br/public/api/teste.php', {
+      nome: this.state.nome,
+      email: this.state.email,
+      telefone: this.state.telefone,
+      mensagem: this.state.mensagem
+    })
+    .then(function (response) {
+      console.log(response);
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+  }
+
   render() {
     return (
       <Container className="mg-container">
@@ -62,20 +94,20 @@ class Contact extends Component {
             </Row>
           </Col>
           <Col md="5">
-            <Form>
+            <Form onSubmit={this.handleSubmit}>
               <FormGroup>
-                <Input type="text" name="nome" id="nome" placeholder="Nome" className="ipt" />
+                <Input type="text" name="nome" id="nome" placeholder="Nome" className="ipt" onChange={this.onChange.bind(this)} value={this.state.name} />
               </FormGroup>
               <FormGroup>
-                <Input type="email" name="email" id="email" placeholder="E-mail" className="ipt" />
+                <Input type="email" name="email" id="email" placeholder="E-mail" className="ipt" onChange={this.onChange.bind(this)} value={this.state.email} />
               </FormGroup>
               <FormGroup>
-                <Input type="tel" name="telefone" id="telefone" placeholder="Telefone" className="ipt" />
+                <Input type="tel" name="telefone" id="telefone" placeholder="Telefone" className="ipt" onChange={this.onChange.bind(this)} value={this.state.telefone} />
               </FormGroup>
               <FormGroup>
-                <Input type="textarea" name="mensagem" id="mensagem" placeholder="Mensagem" className="ipt" />
+                <Input type="textarea" name="mensagem" id="mensagem" placeholder="Mensagem" className="ipt" onChange={this.onChange.bind(this)} value={this.state.mensagem} />
               </FormGroup>
-              <Button type="submit" color="primary" className="btn-send">Enviar</Button>
+              <Button type="button" color="primary" className="btn-send" onClick={this.handleClick}>Enviar</Button>
             </Form>
           </Col>
         </Row>
