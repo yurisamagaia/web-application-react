@@ -30,16 +30,16 @@ if($obj){
     $mail->IsSMTP(); // Define que a mensagem será SMTP
 
     try {
-       $mail->Host       = 'mail.ydeal.net.br'; // Endereço do servidor SMTP (Autenticação, utilize o host smtp.seudomínio.com.br)
+       $mail->Host       = ''; // Endereço do servidor SMTP (Autenticação, utilize o host smtp.seudomínio.com.br)
        $mail->SMTPAuth   = true;  // Usar autenticação SMTP (obrigatório para smtp.seudomínio.com.br)
        $mail->Port       = 587; //  Usar 587 porta SMTP
        $mail->SMTPSecure = "tls";
-       $mail->Username   = 'contato@clubedemaodeobra.com.br'; // Usuário do servidor SMTP (endereço de email)
-       $mail->Password   = 'tf599313'; // Senha do servidor SMTP (senha do email usado)
+       $mail->Username   = 'email de contato'; // Usuário do servidor SMTP (endereço de email)
+       $mail->Password   = 'senha'; // Senha do servidor SMTP (senha do email usado)
 
        //Define o remetente
        // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-       $mail->SetFrom('contato@clubedemaodeobra.com.br', 'Nome'); //Seu e-mail
+       $mail->SetFrom('email de contato', 'Nome'); //Seu e-mail
        //$mail->AddReplyTo('email', 'Nome'); //Seu e-mail
        $mail->Subject = 'Contato pelo site';//Assunto do e-mail
 
