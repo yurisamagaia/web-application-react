@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Form, FormGroup, Label, Input, Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 import '../App.css';
 import Truck from '../img/company.jpeg';
 import Envelope from 'react-icons/lib/fa/envelope';

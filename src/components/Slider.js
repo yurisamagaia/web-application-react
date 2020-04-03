@@ -5,8 +5,6 @@ import '../App.css';
 import img1 from '../img/img1.png';
 import img2 from '../img/img2.png';
 import img3 from '../img/img3.png';
-import AngleLeft from 'react-icons/lib/fa/angle-left';
-import AngleRight from 'react-icons/lib/fa/angle-right';
 
 import Slide from "react-slick";
 import "slick-carousel/slick/slick.css";

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Form, FormGroup, Label, Input, Container, Row, Col } from 'reactstrap';
+import { Button, Form, FormGroup, Input, Container, Row, Col } from 'reactstrap';
 import '../App.css';
 import Envelope from 'react-icons/lib/fa/envelope';
 import Phone from 'react-icons/lib/fa/phone';
