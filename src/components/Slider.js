@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Button } from 'reactstrap';
 import Carousel from 'nuka-carousel';
 import '../App.css';
 import img1 from '../img/img1.png';
@@ -46,14 +47,38 @@ class Slider extends Component {
     };
     return (
       <Slide {...settings}>
-        <div>
-          <img src={img1} className="slide" />
+        <div className="slide-text bg-1">
+          <h1>EXPERIÊNCIA E DINAMISMO EM</h1>
+          <h1>LOGÍSTICA DE TRANSPORTES</h1>
+          <div className="separador"></div>
+          <h3 className="text-center">Há mais de 20 anos transportando com segurança e eficiência nas entregas.</h3>
+          <div className="box-consulta">
+            <a color="success" className="btn-consulta" href="https://tudoentregue.com.br/" target="_blank">Faça uma cotação</a>
+          </div>
         </div>
-        <div>
-          <img src={img2} className="slide" />
+        <div className="slide-text bg-2">
+          <h1>SEJA NOSSO PARCEIRO</h1>
+          <div className="separador"></div>
+          <h3 className="descricao-slide">Valorizamos muito a parceria com os nossos clientes, venha fazer parte do time de clientes satisfeitos da Libardo Transportes.</h3>
+          <div className="box-consulta">
+            <a color="success" className="btn-consulta" href="#company">Quem somos</a>
+          </div>
         </div>
-        <div>
-          <img src={img3} className="slide" />
+        <div className="slide-text bg-3">
+          <h1>VEÍCULOS GERENCIADOS 24 horas</h1>
+          <div className="separador"></div>
+          <h3 className="descricao-slide">Oferecendo segurança e monitoramento logístico nas operações dos nossos clientes.</h3>
+          <div className="box-consulta">
+          <a color="success" className="btn-consulta" href="https://tudoentregue.com.br/" target="_blank">Faça uma cotação</a>
+          </div>
+        </div>
+        <div className="slide-text bg-4">
+          <h1 className="text-center">ATENDER COM QUALIDADE, AGILIDADE E</h1>
+          <h1 className="text-center">SEGURANÇA É NOSSO OBJETIVO</h1>
+          <div className="separador"></div>
+          <div className="box-consulta">
+          <a color="success" className="btn-consulta" href="https://tudoentregue.com.br/" target="_blank">Faça uma cotação</a>
+          </div>
         </div>
       </Slide>
     );

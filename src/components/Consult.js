@@ -15,7 +15,10 @@ class Consult extends Component {
           <div className="parallax-text">
             <h3>Faça a consulta de sua entrega agora</h3>
             <img src={MiniTruck} />
-            <Button color="success" className="btn-consulta"> FAZER CONULTA</Button>
+            {/* <Button color="success" className="btn-consulta"> FAZER CONULTA</Button> */}
+            <div className="box-consulta">
+              <a color="success" className="btn-consulta" href="https://tudoentregue.com.br/" target="_blank"> FAZER CONSULTA</a>
+            </div>
           </div>
         </div>
       </Parallax>

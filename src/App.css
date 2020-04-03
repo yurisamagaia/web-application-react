@@ -32,6 +32,16 @@
   to { transform: rotate(360deg); }
 }
 
+.teste{
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  color: #000;
+  padding: 20px;
+  font-size: 40px;
+  z-index: 50;
+}
+
 button{
 
 }
@@ -65,6 +75,56 @@ h2{
 
 .slide{
   width: 100%;
+}
+
+.slide-text{
+  height: 960px;
+  width: 100%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  background-position: center center;
+}
+
+.bg-1 {
+  background-image: url(./img/img.jpeg);
+}
+
+.bg-2 {
+  background-image: url(./img/img2.jpeg);
+}
+
+.bg-3 {
+  background-image: url(./img/img3.jpeg);
+}
+
+.bg-4 {
+  background-image: url(./img/img4.jpeg);
+}
+
+.separador {
+  width: 300px;
+  height: 5px;
+  background-color: #fff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.btn-slider {
+  margin-top: 15px !important;
+  padding: 15px 40px !important;
+  font-size: 18px !important;
+}
+
+.descricao-slide {
+  text-align: center;
+  padding: 0px 100px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .mg-top-50{
@@ -122,6 +182,24 @@ h2{
   display:inline-block !important;
   border: 1px solid #007bff !important;
 }
+.loading {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff;
+}
+.sucesso {
+  text-align: center;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  color: #155724;
+}
 
 /*Navbar*/
 .nav{
@@ -146,10 +224,12 @@ h2{
 
 /*Company*/
 .img-company{
-  width: 65%;
-  border-radius: 50%;
-  padding: 2px;
-  border: 1px solid #eaeaea;
+  width: 100%;
+  max-width: 960px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  padding: 3px;
+  border: 1px solid #cdcdcd;
 }
 
 /*Choose*/
@@ -191,9 +271,14 @@ h2{
   text-align: center;
 }
 .btn-consulta{
-  padding: 10px 25px !important;
-  border-radius: 3px !important;
-  margin-top: 15px;
+  padding: 10px 25px!important;
+  border-radius: 3px!important;
+  background-color: #28a745 !important;
+  color: #fff!important;
+}
+.box-consulta { 
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 
 /*Services*/
